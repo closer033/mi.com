@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>仿写小米官网</title>
+	<!-- <link rel="stylesheet" href="小米.css"> -->
+	<style type="text/css">
+		body,ul,li,a,h1,input,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0 none;
+}
+input{
+	outline-style: none;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+/*头部导航开始*/
+.top-nav{
+	height: 40px;
+	background-color: #333333;
+}
+.top-nav-con{
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+.top-nav-con li a{
+	display: inline-block;
+	line-height: 40px;
+	font-size:12px;
+	color: #B0B0B0;
+	float: left;
+	padding: 0 7px;
+}
+.top-nav-con li a:hover{
+	color: #fff;
+}
+.top-nav-con span{
+	display: inline-block;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	color: #B0B0B0;
+	float: left;
+}
+/*头部导航结束*/
+/*logo主导航开始*/
+.nav{
+	width: 1226px;
+	height: 66px;
+	margin: 0 auto;
+	margin-top:22px;
+	margin-bottom:23px;  
+}
+.nav .logo{
+	width: 66px;
+	height: 66px;
+	float: left;
+}
+.nav .shouhuan{
+	width: 163px;
+	height: 66px;
+	float: left;
+}
+.nav ul li a{
+	display: inline-block;
+	height: 66px;
+	line-height: 66px;
+	color: #000;
+	float: left;
+	padding-left:26px;
+}
+.nav ul li a:hover{
+	color: #ff6700;
+}
+/*logo主导航结束*/
+/*banner部分开始*/
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+}
+.banner-l{
+	width: 234px;
+	height: 460px;
+	background-color: #2C505F;
+	border-left: 1px solid #6DC9EE; 
+	float: left;
+}
+.banner-r{
+	display: inline-block;
+	width: 991px;
+	height: 460px;
+	float: right;
+
+}
+.banner-l ul li a{
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	color: #ffffff;
+	padding: 0 0 5px 29px;
+}
+.banner-l ul li a:hover{
+	color: #ff6700;
+}
+/*banner部分结束*/
+/*adv部分开始*/
+.adv{
+	width: 1226px;
+	height: 170px;
+	margin: 14px auto;
+}
+.adv1{
+	width: 234px;
+	height: 114px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 38px;
+	padding-top: 56px;
+	background-color: #5F5750;
+}
+.adv2,.adv3,.adv4{
+	width: 316px;
+	height: 170px;
+	float: left;
+	margin-left: 14px;
+}
+/*adv部分结束*/
+/*pro部分开始*/
+.chanpin{
+	height: 797px;
+	background-color: #F5F5F5;
+}
+.pro{
+	width: 1226px;
+	height: 797px;
+	margin:66px auto; 
+}
+.pro .title{
+	height: 118px;
+}
+.pro .title .title-l{
+	display: inline-block;
+	height: 22px;
+	width: 88px;
+	font-size: 21px;
+	margin-top: 79px;
+	float: left;
+}
+.pro .title .title-r{
+	display: inline-block;
+	height: 16px;
+	width: 65px;
+	font-size: 16px;
+	margin-top: 81px;
+	float: right;
+}
+/*title部分结束*/
+.pro .pro-con{
+	height: 614px;
+	text-align: center;
+}
+.pro .pro-con .balance{
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+.pro .pro-con .pro-con-c{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.pro-con-c1,.pro-con-c2,.pro-con-c3,.pro-con-c4,
+.pro-con-c5,.pro-con-c6,.pro-con-c7,.pro-con-c8{
+	width: 234px;
+	height: 300px;
+	background-color: #fff;
+	float: left;
+	margin: 0 0 14px 14px;
+	position: relative;
+}
+.pro .pro-con-c img{
+	margin-top:40px; 
+}
+.pro-con-c .one{
+	font-size: 13px;
+	color: #000;
+	font-family: 微软雅黑;
+	text-align: center;
+}
+.pro-con-c .two,.three del{
+	font-size: 12px;
+	color: #B0B0B0;
+	font-family: 微软雅黑;
+	text-align: center;
+}
+.pro-con-c .three{
+	font-size: 13px;
+	color: #FF9100;
+	text-align: center;
+}
+.pro-con-c .free{
+	height: 20px;
+	width: 64px;
+	background-color: #FFAC13;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 85px;
+}
+.pro-con-c .nine{
+	height: 20px;
+	width: 64px;
+	background-color: #E53935;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 85px;
+}
+/*pro部分结束*/
+/*友情连接部分*/
+.friend{
+	width: 1226px;
+	height: 111px;
+	margin: 0 auto;
+}
+.friend-con{
+	width: 975px;
+	height: 111px;
+	float: left;
+}
+.friend-con dl{
+	width: 160px;
+	height: 111px;
+	float: left;
+}
+.friend-con dt{
+	font-size: 14px;
+	line-height: 1.25;
+	margin: -18px 0 24px 0;
+	color: #424242;
+}
+.friend-con dd a{
+	display: inline-block;
+	font-size: 12px;
+	color: #757575;
+	height: 28px;
+	line-height: 28px;
+	margin-left: -41px;
+}
+.friend-con dd a:hover{
+	color: #ff6700;
+}
+.aside{
+	width: 250px;
+	height: 111px;
+	float: right;
+	text-align: center;
+}
+.aside p{
+	font-size: 12px;
+	color: #616161; 
+	margin: 0 0 5px 0;
+}
+.aside .phone{
+	font-size: 22px;
+	line-height: 1;
+	color: #ff6700;
+	margin-bottom: 5px;
+}
+/*友情连接部分结束*/
+/*footer部分开始*/
+.footer{
+	width: 1226px;
+	height: 66px;
+	margin: 70px auto 0;
+}
+.footer img{
+	width: 66px;
+	height: 66px;
+	float: left;
+}
+.footer ul li a,.footer p{
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	color: #757575;
+	border-left: 1px solid #BABACC;
+	padding: 0 3px; 
+}
+.footer ul li a:hover{
+	color:  #ff6700;
+}
+.footer p:hover{
+	color: blue;
+}
+.footer p{
+	margin-top:0; 
+}
+.footer-logo{
+	width: 267px;
+	height: 19px;
+	margin: 0 auto;
+}
+	</style>
+</head>
+<body>
+	<div class="top-nav">
+		<ul class="top-nav-con">
+			<li><a href="#">小米网</a></li><span>|</span>
+			<li><a href="#">MIUI</a></li><span>|</span>
+			<li><a href="#">米聊</a></li><span>|</span>
+			<li><a href="#">游戏</a></li><span>|</span>
+			<li><a href="#">多看阅读</a></li><span>|</span>
+			<li><a href="#">云服务</a></li><span>|</span>
+			<li><a href="#">小米网移动版</a></li><span>|</span>
+			<li><a href="#">问题反馈</a></li><span>|</span>
+			<li><a href="#">Select Region</a></li>
+		</ul>
+	</div>
+	<div class="nav">
+		<div class="logo"><img src="images/logo.png"></div>
+		<div class="shouhuan"><img src="images/haidaoquannew.gif"></div>
+		<ul>
+			<li><a href="#">小米手机</a></li>
+			<li><a href="#">红米</a></li>
+			<li><a href="#">平板</a></li>
+			<li><a href="#">电视</a></li>
+			<li><a href="#">盒子·影音</a></li>
+			<li><a href="#">路由器</a></li>
+			<li><a href="#">智能硬件</a></li>
+			<li><a href="#">服务</a></li>
+			<li><a href="#">社区</a></li>
+		</ul>
+	</div>
+	<div class="banner">
+		<div class="banner-l">
+			<ul>
+				<li><a href="#">手机 平板 电话卡</a></li>
+				<li><a href="#">电视 盒子</a></li>
+				<li><a href="#">路由器 智能硬件</a></li>
+				<li><a href="#">移动电源 插线板</a></li>
+				<li><a href="#">耳机 音箱</a></li>
+				<li><a href="#">电池 存储卡</a></li>
+				<li><a href="#">保护套 后盖</a></li>
+				<li><a href="#">贴膜 其他配件</a></li>
+				<li><a href="#">米兔 服装</a></li>
+				<li><a href="#">箱包 其他周边</a></li>
+			</ul>
+		</div>
+		<div class="banner-r"><img src="images/banner.png"></div>
+	</div>
+	<div class="adv">
+		<div class="adv1">我就是一个空色块<br>一言不合就这么任性</div>
+		<div class="adv2"><img src="images/9df8948d-398c-4aa6-a744-2321c7b2dbbc.jpg"></div>
+		<div class="adv3"><img src="images/05afb66f-1334-4522-a472-b8aee48cf3de.jpg"></div>
+		<div class="adv4"><img src="images/ddffe50f-7022-48ed-9553-24fb7c29dcc4.jpg"></div>
+	</div>
+	<div class="chanpin">
+		<div class="pro">
+			<div class="title">
+				<div class="title-l">智能硬件</div>
+				<div class="title-r">查看全部</div>
+			</div>
+			<div class="pro-con">
+				<div class="balance"><img src="images/124d82cc-cfce-44ab-b711-28b21be81683.jpg"></div>
+				<div class="pro-con-c">
+					<div class="pro-con-c1">
+					<img src="images/T1rQAgB7Av1RXrhCrK.jpg">
+					<p class="one">小米路由器3</p>
+					<p class="two">四天线设计，更安全更稳定</p>
+					<p class="three">149元</p>
+					<div class="free">免邮费</div>
+					</div>
+					<div class="pro-con-c2">
+					<img src="images/pms_1464071511.37197399!220x220.jpg">
+					<p class="one">米家 LED 智能台灯</p>
+					<p class="two">无可视频闪，亮度色温无级调节</p>
+					<p class="three">169元</p>					
+					</div>
+					<div class="pro-con-c3">
+					<img src="images/T1zTK_Bbhv1RXrhCrK.jpg">
+					<p class="one">小米净水器 厨下式</p>
+					<p class="two">RO反渗透直出纯净水，包邮包安装</p>
+					<p class="three">1999元</p>
+					<div class="free">免邮费</div>
+					</div>
+					<div class="pro-con-c4">
+					<img src="images/T1o3Z_BKET1RXrhCrK!220x220.jpg">
+					<p class="one">小蚁智能摄像机 夜视版</p>
+					<p class="two">能看能听能说，手机远程观看</p>
+					<p class="three">149元</p>
+					</div>
+					<div class="pro-con-c5">
+					<img src="images/T1KOYgBQdv1RXrhCrK.jpg">
+					<p class="one">Yeelight床头灯</p>
+					<p class="two">触摸式操作，给卧室1600万种颜色</p>
+					<p class="three">249元</p>
+					</div>
+					<div class="pro-con-c6">
+					<img src="images/T1zBYgBCWv1RXrhCrK!220x220.jpg">
+					<p class="one">小米空气净化器2</p>
+					<p class="two">10分钟，房间空气焕然一新</p>
+					<p class="three">699元</p>
+					</div>
+					<div class="pro-con-c7">
+					<img src="images/T1YTJ_B_Av1RXrhCrK.jpg">
+					<p class="one">小米智能安防套装</p>
+					<p class="two">智能警戒，为您的家增添一份安心</p>
+					<p class="three">169元 <del>188元</del></p>
+					<div class="nine">享九折</div>
+					</div>
+					<div class="pro-con-c8">
+					<img src="images/T1MQDgB5Vv1RXrhCrK.jpg">
+					<p class="one">米家iHealth血压计</p>
+					<p class="two">爸妈上手就会用的智能血压计</p>
+					<p class="three">399元</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="friend">
+		<div class="friend-con">
+			<div>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd><a href="#">账户管理</a></dd>
+					<dd><a href="#">购物指南</a></dd>
+					<dd><a href="#">订单操作</a></dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt>服务支持</dt>
+					<dd><a href="#">售后政策</a></dd>
+					<dd><a href="#">自助服务</a></dd>
+					<dd><a href="#">相关下载</a></dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt>线下门店</dt>
+					<dd><a href="#">小米之家</a></dd>
+					<dd><a href="#">服务网点</a></dd>
+					<dd><a href="#">零售网点</a></dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt>关于小米</dt>
+					<dd><a href="#">了解小米</a></dd>
+					<dd><a href="#">加入小米</a></dd>
+					<dd><a href="#">联系我们</a></dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt>关注我们</dt>
+					<dd><a href="#">新浪微博</a></dd>
+					<dd><a href="#">小米部落</a></dd>
+					<dd><a href="#">官方微信</a></dd>
+				</dl>
+			</div>
+			<div>
+				<dl>
+					<dt>特色服务</dt>
+					<dd><a href="#">F 码通道</a></dd>
+					<dd><a href="#">小米移动</a></dd>
+					<dd><a href="#">防伪查询</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="aside"><p class="phone">400-100-5678</p>
+			<p>周一至周日 8:00-18:00 <br>（仅收市话费）</p>
+		</div>
+	</div>
+	<div class="footer">
+		<img src="images/logo.png">
+		<ul>
+			<li><a href="#">小米网</a></li>
+			<li><a href="#">MIUI</a></li>
+			<li><a href="#">米聊</a></li>
+			<li><a href="#">多看书城</a></li>
+			<li><a href="#">小米路由器</a></li>
+			<li><a href="#">视频电话</a></li>
+			<li><a href="#">小米后院</a></li>
+			<li><a href="#">小米天猫店</a></li>
+			<li><a href="#">小米淘宝直营店</a></li>
+			<li><a href="#">小米网盟</a></li>
+			<li><a href="#">问题反馈</a></li>
+			<li><a href="#">Select Region</a></li>
+		</ul><br>
+		<p>京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号<br>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+		</p>
+	</div>
+	<div class="footer-logo"><img src="images/slogan2016.png"></div>	
+</body>
+</html>

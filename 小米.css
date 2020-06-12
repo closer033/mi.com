@@ -1,0 +1,319 @@
+body,ul,li,a,h1,input,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0 none;
+}
+input{
+	outline-style: none;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+/*头部导航开始*/
+.top-nav{
+	height: 40px;
+	background-color: #333333;
+}
+.top-nav-con{
+	width: 1226px;
+	height: 40px;
+	margin: 0 auto;
+}
+.top-nav-con li a{
+	display: inline-block;
+	line-height: 40px;
+	font-size:12px;
+	color: #B0B0B0;
+	float: left;
+	padding: 0 7px;
+}
+.top-nav-con li a:hover{
+	color: #fff;
+}
+.top-nav-con span{
+	display: inline-block;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	color: #B0B0B0;
+	float: left;
+}
+/*头部导航结束*/
+/*logo主导航开始*/
+.nav{
+	width: 1226px;
+	height: 66px;
+	margin: 0 auto;
+	margin-top:22px;
+	margin-bottom:23px;  
+}
+.nav .logo{
+	width: 66px;
+	height: 66px;
+	float: left;
+}
+.nav .shouhuan{
+	width: 163px;
+	height: 66px;
+	float: left;
+}
+.nav ul li a{
+	display: inline-block;
+	height: 66px;
+	line-height: 66px;
+	color: #000;
+	float: left;
+	padding-left:26px;
+}
+.nav ul li a:hover{
+	color: #ff6700;
+}
+/*logo主导航结束*/
+/*banner部分开始*/
+.banner{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+}
+.banner-l{
+	width: 234px;
+	height: 460px;
+	background-color: #2C505F;
+	border-left: 1px solid #6DC9EE; 
+	float: left;
+}
+.banner-r{
+	display: inline-block;
+	width: 991px;
+	height: 460px;
+	float: right;
+
+}
+.banner-l ul li a{
+	display: inline-block;
+	height: 42px;
+	line-height: 42px;
+	color: #ffffff;
+	padding: 0 0 5px 29px;
+}
+.banner-l ul li a:hover{
+	color: #ff6700;
+}
+/*banner部分结束*/
+/*adv部分开始*/
+.adv{
+	width: 1226px;
+	height: 170px;
+	margin: 14px auto;
+}
+.adv1{
+	width: 234px;
+	height: 114px;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	line-height: 38px;
+	padding-top: 56px;
+	background-color: #5F5750;
+}
+.adv2,.adv3,.adv4{
+	width: 316px;
+	height: 170px;
+	float: left;
+	margin-left: 14px;
+}
+/*adv部分结束*/
+/*pro部分开始*/
+.chanpin{
+	height: 797px;
+	background-color: #F5F5F5;
+}
+.pro{
+	width: 1226px;
+	height: 797px;
+	margin:66px auto; 
+}
+.pro .title{
+	height: 118px;
+}
+.pro .title .title-l{
+	display: inline-block;
+	height: 22px;
+	width: 88px;
+	font-size: 21px;
+	margin-top: 79px;
+	float: left;
+}
+.pro .title .title-r{
+	display: inline-block;
+	height: 16px;
+	width: 65px;
+	font-size: 16px;
+	margin-top: 81px;
+	float: right;
+}
+/*title部分结束*/
+.pro .pro-con{
+	height: 614px;
+	text-align: center;
+}
+.pro .pro-con .balance{
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+.pro .pro-con .pro-con-c{
+	width: 992px;
+	height: 614px;
+	float: right;
+}
+.pro-con-c1,.pro-con-c2,.pro-con-c3,.pro-con-c4,
+.pro-con-c5,.pro-con-c6,.pro-con-c7,.pro-con-c8{
+	width: 234px;
+	height: 300px;
+	background-color: #fff;
+	float: left;
+	margin: 0 0 14px 14px;
+	position: relative;
+}
+.pro .pro-con-c img{
+	margin-top:40px; 
+}
+.pro-con-c .one{
+	font-size: 13px;
+	color: #000;
+	font-family: 微软雅黑;
+	text-align: center;
+}
+.pro-con-c .two,.three del{
+	font-size: 12px;
+	color: #B0B0B0;
+	font-family: 微软雅黑;
+	text-align: center;
+}
+.pro-con-c .three{
+	font-size: 13px;
+	color: #FF9100;
+	text-align: center;
+}
+.pro-con-c .free{
+	height: 20px;
+	width: 64px;
+	background-color: #FFAC13;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 85px;
+}
+.pro-con-c .nine{
+	height: 20px;
+	width: 64px;
+	background-color: #E53935;
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 85px;
+}
+/*pro部分结束*/
+/*友情连接部分*/
+.friend{
+	width: 1226px;
+	height: 111px;
+	margin: 0 auto;
+}
+.friend-con{
+	width: 975px;
+	height: 111px;
+	float: left;
+}
+.friend-con dl{
+	width: 160px;
+	height: 111px;
+	float: left;
+}
+.friend-con dt{
+	font-size: 14px;
+	line-height: 1.25;
+	margin: -18px 0 24px 0;
+	color: #424242;
+}
+.friend-con dd a{
+	display: inline-block;
+	font-size: 12px;
+	color: #757575;
+	height: 28px;
+	line-height: 28px;
+	margin-left: -41px;
+}
+.friend-con dd a:hover{
+	color: #ff6700;
+}
+.aside{
+	width: 250px;
+	height: 111px;
+	float: right;
+	text-align: center;
+}
+.aside p{
+	font-size: 12px;
+	color: #616161; 
+	margin: 0 0 5px 0;
+}
+.aside .phone{
+	font-size: 22px;
+	line-height: 1;
+	color: #ff6700;
+	margin-bottom: 5px;
+}
+/*友情连接部分结束*/
+/*footer部分开始*/
+.footer{
+	width: 1226px;
+	height: 66px;
+	margin: 70px auto 0;
+}
+.footer img{
+	width: 66px;
+	height: 66px;
+	float: left;
+}
+.footer ul li a,.footer p{
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	color: #757575;
+	border-left: 1px solid #BABACC;
+	padding: 0 3px; 
+}
+.footer ul li a:hover{
+	color:  #ff6700;
+}
+.footer p:hover{
+	color: blue;
+}
+.footer p{
+	margin-top:0; 
+}
+.footer-logo{
+	width: 267px;
+	height: 19px;
+	margin: 0 auto;
+}
